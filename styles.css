@@ -1,0 +1,22 @@
+li {
+  font-family: Georgia;
+}
+
+#directions ol { 
+list-style-type: upper-roman;
+}
+
+span {
+  font-style: italic !important;
+  color: #999;
+}
+
+h1 {
+  font-family: 'Amatic SC', cursive;  
+  text-shadow: 2px 2px 5px #e30b5d !important;
+}
+
+h4 {
+  font-family: 'Seymour One', sans-serif;
+  text-decoration: underline;
+}
