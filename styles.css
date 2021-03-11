@@ -1,14 +1,37 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .recipe {
     width: 100%;
   }
+  
+  nav {
+    font-size: .85em; 
+  }
+ }
+
+@media screen and (max-width: 575px) {
+  nav {
+    display: none; 
+  } 
+  
+  div {
+    border: solid .1em; 
+    border-radius: .35em;
+    margin: .15em;
+    padding-left: .5em;
+  }
+  
+  footer { 
+    position: relative; 
+    text-align: center; 
+  }
 }
+
 
 body { 
   background-color: #FBEFFB; 
 }
 
-#header { 
+header { 
   padding-top: 1em;
   border: .15em solid #000; 
   border-radius: .8em;
@@ -44,8 +67,6 @@ li {
 list-style-type: upper-roman;
 }
 
-
-
 span {
   font-style: italic !important;
   color: #999;
@@ -63,7 +84,7 @@ h4 {
   text-decoration: underline;
 }
 
-.footer { 
+footer { 
   position: absolute;
   left: 0;
   bottom: 0;
